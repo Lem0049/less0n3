@@ -1,10 +1,12 @@
-arou = [1, 2, 3, 4, 510, 4532, 5, 6]
+arou = [1, 2, 3, 4, 510, 4532, 4, 6]
 
 
 def search(elm, ar):
     for i in range(len(ar)):
+        c= []
         if ar[i] == elm:
-            return i
+            c.append(i)
+            return c
     return -1
 
 
